@@ -1,11 +1,78 @@
 <!DOCTYPE html>
 <html>
 <head>
-<link rel="stylesheet" href="style.css"> 
-</head>
-<body>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <title>CSS Template</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
-   a:link {
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+  background-color: cadetblue;
+  padding: 10px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+  border: 10px solid blue;
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 30%;
+  height: 300px; /* only for demonstration, should be removed */
+  background: #ccc;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color: #f1f1f1;
+  height: 300px; /* only for demonstration, should be removed */
+}
+
+/* Clear floats after the columns */
+section:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+footer {
+  background-color: #777;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+a:link {
         color: honeydew;
         background-color: transparent;
         text-decoration: none;
@@ -33,9 +100,14 @@
     padding: 20px;
   }
 </style>
+<link rel="stylesheet" href="style.css"> 
+</head>
+<body>
 <script src="script.js"></script>
-  <h1 style="font-family:courier; text-align:center;">👋 Hello World!</h1> 
-  <h2 style="text-align:center;"> From Crystal.</h2>
+<header>
+  <h1 style="text-align:center;">👋 Hello World!</h1>
+  <h4>From Crystal.</h4> 
+</header>
   <!-- This website will be called "Piggy's Library" which will have its own tab on the official website when I make it. hehe -->
   <p style="text-align:left;">Noted quotes from noted individuals:</p>
   <p><a href="#TMSOFP">The Magic Strings of Frankie Presto</a><br><a href="#WRMATEOL">What Really Matters at the End of Life</a></p>
