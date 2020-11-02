@@ -4,5 +4,5 @@
   }
     function aboutme() {
     document.getElementById("London").innerHTML =
-    "Hi! Thank you for caring enough to read this! Hope you enjoy the rest of this website.";
+    "Hi! This is Crystal. I am a student, studying something extremely unrelated to coding. But this is a starting point for me in terms of learning how to code. The decision to do is comes from my father who has endlessly inspired me to be the best version of myself. So here is the best version of my code! Hope you enjoy!";
   }
