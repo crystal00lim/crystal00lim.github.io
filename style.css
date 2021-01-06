@@ -24,7 +24,7 @@ html {
 }
 @keyframes animStar {
   from {
-    transform: translateY(-1500px);
+    transform: translateY(-1300px);
   }
   to {
     transform: translateY(0px);
@@ -49,4 +49,34 @@ html {
   font-family: Roboto;
   font-weight: 300;
   line-height: 0.8;
+}
+.col-sm-12 {
+  font-size: 50%;
+  color: white;
+  font-family: Roboto, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  margin: 0px;
+  padding: 0px;
+}
+#index-pg {
+  list-style-type: none;
+  padding:0px;
+  margin:0px;
+}
+#index-dd {
+  color:white;
+  background-color:transparent;
+  text-decoration: none;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#index-dd:active {
+  color:grey;
+  background-color:transparent;
+  text-decoration: none;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#index-dd:hover {
+  color:white;
+  background-color:transparent;
+  text-decoration: underline;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
