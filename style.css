@@ -24,9 +24,29 @@ html {
 }
 @keyframes animStar {
   from {
-    transform: translateY(0px);
+    transform: translateY(-1500px);
   }
   to {
-    transform: translateY(-2000px);
+    transform: translateY(0px);
   }
+}
+.centered {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 300%;
+  color: white;
+  font-family: Roboto, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: 300;
+/*  background-color: rgba(29, 29, 29, 0.3);
+*/
+  text-align: center;
+  padding: 5px;
+}
+#opening {
+  font-size: 140%;
+  font-family: Roboto;
+  font-weight: 300;
+  line-height: 0.8;
 }
