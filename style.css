@@ -1,88 +1,18 @@
-body {
-  font-family: 'Courier', Courier, monospace;
-  background: whitesmoke;
-  color: palevioletred;
-  text-align: center;
+html {
+  background:black;
 }
-* {
-  box-sizing: border-box;
+#stars3 {
+  width: 3px;
+  height: 3px;
+  background: transparent;
+  box-shadow: 736px 705px #FFF , 1657px 1848px #FFF , 316px 1036px #FFF , 1706px 293px #FFF , 1631px 473px #FFF , 1951px 211px #FFF , 403px 199px #FFF , 1984px 862px #FFF , 1559px 400px #FFF , 509px 591px #FFF , 963px 471px #FFF , 1440px 1345px #FFF , 240px 706px #FFF , 1902px 982px #FFF , 498px 1px #FFF , 671px 596px #FFF , 1894px 442px #FFF , 121px 379px #FFF , 1907px 1449px #FFF , 385px 588px #FFF , 490px 142px #FFF , 749px 1705px #FFF , 678px 1824px #FFF , 1376px 788px #FFF , 1651px 86px #FFF , 1832px 641px #FFF , 1708px 1803px #FFF , 571px 1994px #FFF , 1116px 415px #FFF , 509px 718px #FFF , 1435px 922px #FFF , 1668px 404px #FFF , 1907px 793px #FFF , 755px 1413px #FFF , 1630px 1873px #FFF , 469px 821px #FFF , 1874px 155px #FFF , 758px 494px #FFF , 1889px 1681px #FFF , 177px 1123px #FFF , 180px 1945px #FFF , 1477px 1195px #FFF , 450px 865px #FFF , 1774px 750px #FFF , 994px 1387px #FFF , 1781px 1268px #FFF , 1810px 1103px #FFF , 1516px 1055px #FFF , 1643px 1585px #FFF , 382px 746px #FFF , 443px 574px #FFF , 723px 215px #FFF , 1849px 954px #FFF , 265px 803px #FFF , 751px 649px #FFF , 351px 617px #FFF , 548px 1501px #FFF , 1197px 1988px #FFF , 395px 1177px #FFF , 407px 536px #FFF , 1548px 511px #FFF , 297px 1394px #FFF , 1369px 1102px #FFF , 617px 687px #FFF , 590px 810px #FFF , 1170px 1860px #FFF , 1598px 1653px #FFF , 856px 384px #FFF , 1283px 226px #FFF , 1602px 382px #FFF , 1311px 1641px #FFF , 1662px 622px #FFF , 1282px 1230px #FFF , 1122px 710px #FFF , 201px 494px #FFF , 318px 606px #FFF , 730px 410px #FFF , 1433px 1675px #FFF , 1894px 1358px #FFF , 1155px 296px #FFF , 490px 140px #FFF , 66px 1536px #FFF , 762px 1502px #FFF , 1258px 562px #FFF , 431px 1228px #FFF , 1978px 1257px #FFF , 541px 1138px #FFF , 947px 662px #FFF , 454px 1170px #FFF , 396px 1075px #FFF , 1793px 949px #FFF , 1173px 1361px #FFF , 1264px 430px #FFF , 1904px 1544px #FFF , 1301px 1395px #FFF , 193px 220px #FFF , 1973px 1756px #FFF , 730px 1902px #FFF , 1838px 1066px #FFF , 72px 131px #FFF;
+  animation: animStar 150s linear infinite;
 }
-
-body {
-  font-family: 'Courier', monospace, Helvetica, sans-serif;
-}
-
-/* Style the header */
-header {
-  background-color: rgb(146, 134, 228);
-  padding: 10px;
-  text-align: center;
-  font-size: 35px;
-  color: white;
-  border: 2px solid white;
-}
-
-/* Create two columns/boxes that floats next to each other */
-nav {
-  float: left;
-  width: 30%;
-  background: palevioletered;
-  padding: 20px;
-}
-
-/* Style the list inside the menu */
-nav ul {
-  list-style-type: none;
-  padding: 0;
-}
-
-article {
-  float: left;
-  padding: 20px;
-  width: 70%;
-  background-color: powderblue;
-  color: black;
-}
-
-/* Clear floats after the columns */
-section:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-/* Style the footer */
-footer {
-  background-color: #777;
-  padding: 10px;
-  text-align: center;
-  color: white;
-}
-
-/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
-@media (max-width: 600px) {
-  nav, article {
-    width: 100%;
-    height: auto;
+@keyframes animStar {
+  from {
+    transform: translateY(0px);
+  }
+  to {
+    transform: translateY(-2000px);
   }
 }
-a:link {
-        color: palevioletred;
-        background-color: transparent;
-        text-decoration: none;
-      }
-      a:visited {
-        color: palevioletred;
-        background-color: transparent;
-        text-decoration: none;
-      }
-      a:hover {
-        color: midnightblue;
-        background-color: transparent;
-        text-decoration: underline;
-      }
-      a:active {
-        color: green;
-        background-color: transparent;
-        text-decoration: underline;
-      }
